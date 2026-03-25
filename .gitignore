@@ -1,0 +1,57 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tor data directories (runtime generated)
+tor_data*/
+tor_data/
+*.log
+
+# Tor binaries (if files are large, exclude them)
+tor/tor.exe
+tor/pluggable_transports/
+tor/*.tar.gz
+tor/*.tar
+
+# GeoIP databases (if large, users should download separately)
+# Uncomment if needed:
+# data/geoip
+# data/geoip6
+
+# OS-specific files
+Thumbs.db
+.directory
+
+# Project-specific
+*.pid
+*.lock
+.config
+config_local.ini
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
