@@ -216,6 +216,9 @@ Edit or append to `bridge.txt`:
 ```
 obfs4 <IP>:<PORT> <FINGERPRINT> cert=<CERT> iat-mode=<MODE>
 ```
+# Demo Video
+
+https://github.com/user-attachments/assets/4a9b4186-38c9-40dc-8c7a-4df6f43a2f86
 
 ## Troubleshooting
 
