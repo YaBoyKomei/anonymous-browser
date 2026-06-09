@@ -2,6 +2,10 @@
 
 A powerful Python-based browser automation tool that provides anonymity through Tor integration, dynamic IP rotation, and advanced browser fingerprint masking. This project launches Selenium WebDriver with a SOCKS5 proxy that changes IP addresses every 10 seconds while implementing sophisticated anti-detection techniques.
 
+# Demo Video
+
+https://github.com/user-attachments/assets/4a9b4186-38c9-40dc-8c7a-4df6f43a2f86
+
 ## Features
 
 🔐 **Complete Anonymity**
@@ -216,9 +220,6 @@ Edit or append to `bridge.txt`:
 ```
 obfs4 <IP>:<PORT> <FINGERPRINT> cert=<CERT> iat-mode=<MODE>
 ```
-# Demo Video
-
-https://github.com/user-attachments/assets/4a9b4186-38c9-40dc-8c7a-4df6f43a2f86
 
 ## Troubleshooting
 
